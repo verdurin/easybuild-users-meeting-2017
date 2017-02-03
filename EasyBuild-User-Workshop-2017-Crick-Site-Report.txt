@@ -1,0 +1,30 @@
+
+Intro to Crick
+
+My background
+- FLS, Manchester, mainly RPM packaging
+- Imperial/CNS
+  - highly-domain specific application provisioning
+- Crick
+  - EasyBuild/Lmod
+  - diversity of legacy clusters and experiences, many of which include no
+    modules and instead symbolic links to the latest or preferred version
+  - have to introduce the concept and benefits of modules
+  - some groups e.g. BABS take to it much more quickly, after some initial
+    complaints
+  - benefits of 1:1 training with research groups
+  - Van Loo
+    - used on eMedLab
+  - lots of cases of pipelines relying on specific old versions of software,
+    in at least one cases two different old versions
+  - Biology/Bioinformatic applications problematic generally
+- EasyBuild
+  - regardless of technical merits vs. Spack etc., wins because of the
+    community
+  - very welcoming, extremely helpful
+  - shining example of a distributed open source project working well
+  - made my work feasible, and even enjoyable, as opposed to impossible
+Ideas for improvement
+  - share tips of the founders e.g. hide-deps
+  - when to use minimal toolchains, HierarchicalMNS, and when not to
+  - adopt some of the third party tools written to e.g. update language extensions
