@@ -2,8 +2,8 @@
 Intro to Crick
 
 My background
-- FLS, Manchester, mainly RPM packaging
-- Imperial/CNS
+- FLS, Manchester, mainly RPM packaging previously, Fedora packager
+- Imperial/CMS
   - highly-domain specific application provisioning
 - Crick
   - EasyBuild/Lmod
@@ -18,13 +18,25 @@ My background
   - lots of cases of pipelines relying on specific old versions of software,
     in at least one cases two different old versions
   - Biology/Bioinformatic applications problematic generally
+- Lessons Learned
+  - Wish I'd been using 'hide-deps' from the beginning...
+  - Over-optimised code that won't run on legacy hardware we've inherited (single machines, not clusters)
+  - enable fruitful cooperation between central provision and local research groups cf. R extensions
+
 - EasyBuild
   - regardless of technical merits vs. Spack etc., wins because of the
     community
   - very welcoming, extremely helpful
   - shining example of a distributed open source project working well
   - made my work feasible, and even enjoyable, as opposed to impossible
+- Plans/Ideas
+  - Linting tool
+  - local Travis testing, pre-submission
+  - Way of importing packages from other tools?
+  - Better support for Conda, e.g. use Conda for deps, but build normal module? cf. PyClone 0.12.x?
 Ideas for improvement
   - share tips of the founders e.g. hide-deps
   - when to use minimal toolchains, HierarchicalMNS, and when not to
   - adopt some of the third party tools written to e.g. update language extensions
+  - while not good to reinvent everything, metadata for easyconfigs would be good, beyond Git logs
+
