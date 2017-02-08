@@ -21,6 +21,7 @@ My background
 - Lessons Learned
   - Wish I'd been using 'hide-deps' from the beginning...
   - Over-optimised code that won't run on legacy hardware we've inherited (single machines, not clusters)
+  - Python on AMD, other applications on AMD, when compiled on Intel
   - enable fruitful cooperation between central provision and local research groups cf. R extensions
 
 - EasyBuild
@@ -39,4 +40,7 @@ Ideas for improvement
   - when to use minimal toolchains, HierarchicalMNS, and when not to
   - adopt some of the third party tools written to e.g. update language extensions
   - while not good to reinvent everything, metadata for easyconfigs would be good, beyond Git logs
-
+Bioinformatics
+  - problems owing to upstream software quality and software release practice quality
+  - worth a special interest group within the community, cf. HPCBIOS?
+  
