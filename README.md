@@ -1,2 +1,1 @@
-# easybuild-users-meeting-2017
-Talk and other files for the 2017 EasyBuild Users' Meeting at Juelich
+Presentation at the 2nd EasyBuild Users' Meeting at JSC, 8th-10th February 2017, using reveal.js
